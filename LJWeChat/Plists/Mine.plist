@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>iOS 17</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>相册</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>收藏</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>钱包</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>表情</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>设置</string>
+			<key>icon</key>
+			<string>head2.jpg</string>
+		</dict>
+	</array>
+</array>
+</plist>

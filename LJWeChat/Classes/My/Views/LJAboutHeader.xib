@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="aboutWeChat" translatesAutoresizingMaskIntoConstraints="NO" id="6YJ-nn-Giv">
+                    <rect key="frame" x="111" y="74" width="152" height="152"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="微信20160520" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVZ-hN-vka">
+                    <rect key="frame" x="131" y="236" width="113" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6YJ-nn-Giv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5lf-sL-PWQ"/>
+                <constraint firstItem="XVZ-hN-vka" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bPG-Us-wjv"/>
+                <constraint firstItem="XVZ-hN-vka" firstAttribute="top" secondItem="6YJ-nn-Giv" secondAttribute="bottom" constant="10" id="bXa-M8-EVc"/>
+                <constraint firstItem="6YJ-nn-Giv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="h5i-Qh-3IN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="247.5" y="163"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aboutWeChat" width="152" height="152"/>
+    </resources>
+</document>
